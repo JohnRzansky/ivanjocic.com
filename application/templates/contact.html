@@ -1,1 +1,33 @@
 {%  extends "base.html" %}
+
+{% block content %}
+    <main class="main main--content">
+        <dl>
+            <div class="contact">
+                <dt>Email:</dt>
+                <dd class="contact__details">
+                    <a class="contact__link" href="mailto:ivan.m.jocic@gmail.com">
+                        ivan.m.jocic [at] gmail.com
+                    </a>
+                </dd>
+            </div>
+            <div class="contact">
+                <dt>GitHub:</dt>
+                <dd class="contact__details">
+                    <a class="contact__link" href="https://github.com/JohnRzansky">
+                        @JohnRzansky
+                    </a>
+                </dd>
+            </div>
+            <div class="contact">
+                <dt>LinkedIn:</dt>
+                <dd class="contact__details">
+                    <a class="contact__link" href="https://www.linkedin.com/in/ivanjocic/">
+                        Ivan Jocic
+                    </a>
+                </dd>
+            </div>
+        </dl>
+    </main>
+
+{% endblock %}
