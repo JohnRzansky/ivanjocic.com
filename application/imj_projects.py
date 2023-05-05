@@ -26,3 +26,6 @@ projects: list[dict[str, str | list[str]] | dict[str, str | list[str]] | dict[st
 ]
 
 
+slug_to_project = {project["slug"]: project for project in projects}
+
+
